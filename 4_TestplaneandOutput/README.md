@@ -1,7 +1,7 @@
 
-# **TEST PLAN**:
+# ****TEST PLAN****:
 
-# High level test plan
+# High Level Test Plan
 
 |TEST ID| DESCRIPTION| EXPECTED I/P|
 | :-----|:-----------|:------------|
@@ -12,7 +12,7 @@
 |HL05|VIEW BOOK|CATEGORY,ID|
 
 
-# Low level test plan
+# Low Level Test Plan
 
 |TESTID| DESCRIPTION| EXPECTED I\P|
 |:-----|:-----------|:------------|
