@@ -1,11 +1,11 @@
 /**
  * @file main.c
- * @author your name (you@domain.com)
+ * @author  your  name  (you@domain.com)
  * @brief 
- * @version 0.1
- * @date 2021-07-11
+ * @version  0.1
+ * @date  2021-07-11
  * 
- * @copyright Copyright (c) 2021
+ * @copyright  Copyright (c) 2021
  * 
  */
 
@@ -14,7 +14,7 @@
 /**
  * @brief main function of the project
  * 
- * @return int 
+ * @return  int 
  */
 
 int main()
@@ -26,14 +26,14 @@ int main()
     
         
 
-    printf("\n\t\t\t\t\t\t*************** MAIN MENU ***************\n");
-    printf("\n\t\t\t\t\t\t1. Add Books");
-    printf("\n\t\t\t\t\t\t2. Delete books");
-    printf("\n\t\t\t\t\t\t3. View Books");
-    printf("\n\t\t\t\t\t\t4. Search book");
-    printf("\n\t\t\t\t\t\t5. Issue books");
-    printf("\n\t\t\t\t\t\t6. Close Application");
-    printf("\n\t\t\t\t\t\t******************************************\n");
+    printf("\n\t\t\t\t\t\t************* MAIN MENU *************\n");
+    printf("\n\t\t\t\t\t\t1. ADD BOOKS");
+    printf("\n\t\t\t\t\t\t2. DELETE BOOKS");
+    printf("\n\t\t\t\t\t\t3. VIEW BOOKS");
+    printf("\n\t\t\t\t\t\t4. SEARCH BOOK");
+    printf("\n\t\t\t\t\t\t5. ISSUE BOOKS");
+    printf("\n\t\t\t\t\t\t6. CLOSE APPLICATION");
+    printf("\n\t\t\t\t\t\t***************************************\n");
     printf("\n\t\t\t\t\t\tEnter your choice: ");
     scanf("%d",&choice);
     switch(choice)
@@ -78,14 +78,14 @@ int main()
      }
     if(success == pass)
     {
-        printf("Successful\n");
+        printf("SUCCESSFUL\n");
     }
     else if(success==fail)
     {
-        printf("Unsuccessful\n");
+        printf("UNSUCCESSFUL\n");
     }
     else{
-        printf("Error\n");
+        printf("ERROR\n");
     }
 return 0;
 }
