@@ -14,7 +14,7 @@ test_values viewbook()
    
     if(fp==NULL)
     {
-        printf("\nERROR:\n");
+        printf("\nError:\n");
         return fail;
     }
     else{
