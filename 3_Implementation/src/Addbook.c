@@ -16,7 +16,7 @@ test_values addition(int id,char name[],char author[])
     
     if(fp == NULL)
     {
-        printf("\nError: while opening file\n");
+        printf("\nERROR : While Opening File\n");
         return fail;
     }
     else{
