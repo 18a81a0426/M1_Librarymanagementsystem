@@ -14,7 +14,7 @@ test_values issuebook(int id)
     fp = fopen("bookLibrary.dat","rb");
     if(fp==NULL)
     {
-        printf("\nError while opening file in issuing book\\n");
+        printf("\nERROR: While Opening File in Issuing Book\\n");
         return fail;
     }
     else{
@@ -26,7 +26,7 @@ test_values issuebook(int id)
         if(book_to_find->book_id==id)
         {
             
-            printf("\nBook_Id: %d\t\tBook_name: %s\t\tBook_Author: %s",book_to_find->book_id,book_to_find->book_name,book_to_find->author_name);
+            printf("\nBOOK_ID: %d\t\tBOOK_NAME: %s\t\tBOOK_AUTHOR: %s",book_to_find->book_id,book_to_find->book_name,book_to_find->author_name);
             printf("\n Book is issued to %s",name1);
             fclose(fp);
             free(book_to_find);
@@ -36,7 +36,7 @@ test_values issuebook(int id)
     
     fclose(fp);
     free(book_to_find);
-    printf("\nSpecified book is not present\n");
+    printf("\nMentioned book is not present\n");
     
     return fail;
     }
